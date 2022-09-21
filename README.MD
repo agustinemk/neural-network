@@ -10,7 +10,7 @@ from neural_network.losses import MSE
 
 def load_data():
     ...
-    return (x_train, y_train)
+    return x_train, y_train
 
 x_train, y_train = load_data()
 

@@ -1,6 +1,7 @@
-from ..neural_network import Network, Dense
-from ..neural_network.activations import Tanh
-from ..neural_network.losses import MSE
+from neural_network.network import Network
+from neural_network.layers import Dense
+from neural_network.activations import Tanh
+from neural_network.losses import MSE
 
 import numpy as np
 
